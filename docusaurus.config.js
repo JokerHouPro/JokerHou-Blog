@@ -1,30 +1,35 @@
 module.exports = {
-  title: 'JokerHou Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'JokerHou',
+  tagline: '创意、技术与设计的交汇点',
+  url: 'https://jokerhou.site',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'jokerhou',
+  projectName: 'jokerhou-blog',
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
-      title: 'My Site',
+      title: 'JokerHou',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'JokerHou Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: '/',
+          activeBasePath: '/',
+          label: '首页',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: '博客', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/jokerhou',
           label: 'GitHub',
           position: 'right',
         },
@@ -34,69 +39,48 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '探索',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: '博客',
+              to: '/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '社交',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/jokerhou',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/jokerhou',
             },
           ],
         },
         {
-          title: 'More',
+          title: '关于',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: '关于我',
+              to: '/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} JokerHou. 用心设计，用爱创造。`,
     },
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
-        // docs: {
-        //   sidebarPath: require.resolve('./sidebars.js'),
-        //   // Please change this to your repo.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/edit/master/website/',
-        // },
         blog: {
           showReadingTime: true,
-          path:"./blog",
-          routeBasePath:"/"
-          // Please change this to your repo.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          path: "./blog",
+          routeBasePath: "/"
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

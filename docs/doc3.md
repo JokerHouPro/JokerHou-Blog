@@ -1,14 +1,54 @@
 ---
-id: doc3
-title: This is Document Number 3
+id: about
+title: 关于我们
+sidebar_label: 关于我们
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+# 关于我们
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+签梦云（济南）信息科技有限公司是一家专注于工业互联网领域的高科技企业。
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+## 公司简介
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+我们致力于为制造业企业提供领先的工业互联网解决方案，通过创新技术连接工业生态，赋能智能制造，帮助企业实现数字化转型和智能化升级。
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+## 发展历程
+
+- **2020年** - 公司成立，开始工业互联网技术研发
+- **2021年** - 第一代工业互联网平台上线
+- **2022年** - 服务客户突破100家
+- **2023年** - 完成多轮融资，加速产品研发
+- **2024年** - 成为区域领先的工业互联网解决方案提供商
+
+## 企业文化
+
+### 企业愿景
+成为全球领先的工业互联网解决方案提供商
+
+### 企业使命
+用创新技术连接工业生态，用智能服务赋能制造企业
+
+### 核心价值观
+- 创新驱动 - 持续技术创新，引领行业发展
+- 客户至上 - 以客户需求为中心，创造客户价值
+- 专业务实 - 专业团队，务实作风
+- 合作共赢 - 开放合作，共赢发展
+
+## 团队介绍
+
+我们拥有一支经验丰富的技术团队，涵盖：
+
+- 物联网技术专家
+- 大数据科学家
+- 人工智能研究员
+- 工业自动化工程师
+- 企业管理顾问
+
+## 联系我们
+
+- **地址**：山东省济南市高新区
+- **电话**：0531-88888888
+- **邮箱**：contact@qianmengyun.com
+- **官网**：https://qianmengyun.com
+
+欢迎随时与我们联系，共同探索工业互联网的无限可能！

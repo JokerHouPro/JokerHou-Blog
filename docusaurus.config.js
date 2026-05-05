@@ -1,91 +1,60 @@
 module.exports = {
-  title: 'JokerHou',
-  tagline: '创意、技术与设计的交汇点',
-  url: 'https://jokerhou.site',
+  title: '签梦云（济南）信息科技有限公司',
+  tagline: '连接工业，智造未来',
+  url: 'https://qianmengyun.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'jokerhou',
-  projectName: 'jokerhou-blog',
+  organizationName: '签梦云',
+  projectName: 'qianmengyun-official',
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: true,
-      respectPrefersColorScheme: false,
+      respectPrefersColorScheme: false
     },
     navbar: {
-      title: 'JokerHou',
+      title: '签梦云',
       logo: {
-        alt: 'JokerHou Logo',
-        src: 'img/logo.svg',
+        alt: '签梦云 Logo',
+        src: 'img/logo.svg'
       },
       items: [
-        {
-          to: '/',
-          activeBasePath: '/',
-          label: '首页',
-          position: 'left',
-        },
-        {to: 'blog', label: '博客', position: 'left'},
-        {
-          href: 'https://github.com/jokerhou',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+        { to: '/', activeBasePath: '/', label: '首页', position: 'left' },
+        { to: 'docs/products', label: '产品与服务', position: 'left' },
+        { to: 'docs/solutions', label: '解决方案', position: 'left' },
+        { to: 'blog', label: '新闻中心', position: 'left' },
+        { to: 'docs/about', label: '关于我们', position: 'left' },
+        { href: 'tel:+86-531-88888888', label: '联系我们', position: 'right', className: 'navbar-contact-btn' }
+      ]
     },
     footer: {
       style: 'dark',
       links: [
-        {
-          title: '探索',
-          items: [
-            {
-              label: '博客',
-              to: '/',
-            },
-          ],
-        },
-        {
-          title: '社交',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/jokerhou',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/jokerhou',
-            },
-          ],
-        },
-        {
-          title: '关于',
-          items: [
-            {
-              label: '关于我',
-              to: '/',
-            },
-          ],
-        },
+        { title: '产品与服务', items: [
+          { label: '工业互联网平台', to: 'docs/products' },
+          { label: '智能解决方案', to: 'docs/solutions' }
+        ] },
+        { title: '关于我们', items: [
+          { label: '公司简介', to: 'docs/about' }
+        ] },
+        { title: '联系方式', items: [
+          { label: '电话：0531-88888888', href: 'tel:+86-531-88888888' },
+          { label: '邮箱：contact@qianmengyun.com', href: 'mailto:contact@qianmengyun.com' }
+        ] }
       ],
-      copyright: `© ${new Date().getFullYear()} JokerHou. 用心设计，用爱创造。`,
-    },
+      copyright: '© 2024 签梦云（济南）信息科技有限公司. 版权所有.'
+    }
   },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
-        blog: {
-          showReadingTime: true,
-          path: "./blog",
-          routeBasePath: "/"
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
+        docs: { sidebarPath: require.resolve('./sidebars.js') },
+        blog: { showReadingTime: true, path: './blog', routeBasePath: '/blog' },
+        theme: { customCss: require.resolve('./src/css/custom.css') }
+      }
+    ]
+  ]
 };
